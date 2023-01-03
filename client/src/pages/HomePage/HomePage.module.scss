@@ -1,0 +1,57 @@
+.opacity0 {
+  opacity: 0;
+}
+
+.opacity1 {
+  opacity: 1;
+}
+
+.bottomSlide {
+  opacity: 1;
+  animation: slideFromBottom;
+  animation-duration: 1s;
+}
+
+.rightSlide {
+  opacity: 1;
+  animation: slideFromRight;
+  animation-duration: 1s;
+}
+
+.fade {
+  animation: fade;
+  animation-duration: 1s;
+}
+
+@keyframes slideFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

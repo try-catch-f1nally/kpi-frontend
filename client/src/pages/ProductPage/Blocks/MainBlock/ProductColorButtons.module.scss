@@ -1,0 +1,15 @@
+.colorBtn {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.colorBtn:hover {
+  transform: scale(1.1);
+  transition-duration: .2s;
+}
+
+.btnActive {
+  border: 3px solid var(--bs-primary);
+  transform: scale(1.1);
+  box-shadow: inset 0 0 1px 1px #1d1d1d;
+}

@@ -1,0 +1,18 @@
+.container {
+  background: url("../../../../public/bg-images/apple-products-watch-iphone-airpods.jpg") center no-repeat;
+  background-size: cover;
+  margin: 5rem 0;
+}
+
+.overlap {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 0, 0.14) 100%);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.listItem {
+  letter-spacing: 1px;
+}

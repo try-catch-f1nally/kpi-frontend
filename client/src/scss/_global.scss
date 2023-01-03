@@ -1,0 +1,77 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body, html, div#root {
+  height: 100%;
+}
+
+body {
+  padding-top: 4rem;
+  color: $light;
+  background: #000;
+  overflow-x: hidden;
+}
+
+.navbar {
+  box-shadow: 0 2px 5px $dark;
+}
+
+footer {
+  border-top: 1px solid #101010;
+}
+
+.lh-0 {
+  line-height: 0;
+}
+
+.form-check-input, .form-check-label {
+  cursor: pointer
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.nav-link.active {
+  background: $dropdown-dark-link-active-bg;
+}
+
+.input-group input.is-invalid + button {
+  border: 1px solid $danger;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-check-input.check-invert[type=checkbox]:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+@include media-breakpoint-between(md, lg) {
+  .navbar .navbar-nav {
+    width: 100%;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .products-images img {
+    width: 90px;
+  }
+}
+
+#up-btn {
+  box-shadow: 0 0 4px $dark;
+  z-index: 10;
+  position: absolute;
+  top: 120%;
+  left: calc(100% - 100px);
+  transform: scale(0);
+  transition: transform .4s;
+}
+
+#up-btn.scale-1 {
+  transform: scale(1);
+  position: sticky;
+  top: 86%;
+  left: calc(100% - 100px);
+}

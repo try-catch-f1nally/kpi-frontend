@@ -1,0 +1,35 @@
+$primary: #FFC107FF;
+$dark: #1d1d1d;
+$light: #dcdcdc;
+$secondary: #868686;
+
+$input-bg: $light;
+
+$dropdown-border-color: #383838;
+$dropdown-dark-bg: $dark;
+$dropdown-dark-link-active-bg: #262626;
+$dropdown-dark-link-active-color: $primary;
+
+$accordion-bg: transparent;
+$accordion-button-bg: $dark;
+$accordion-button-active-bg: $dark;
+$accordion-button-focus-box-shadow: 0;
+$accordion-icon-color: $light;
+$accordion-icon-active-color: $light;
+
+$pagination-padding-y: .5rem;
+$pagination-padding-x: 1rem;
+$pagination-color: $light;
+$pagination-bg: $dark;
+$pagination-border-color: none;
+$pagination-border-radius: 3px;
+$pagination-focus-color: $primary;
+$pagination-focus-bg: #262626;
+$pagination-hover-color: $primary;
+$pagination-hover-bg: #262626;
+$pagination-hover-border-color: none;
+$pagination-active-color: $dark;
+$pagination-active-bg: $light;
+$pagination-disabled-color: $secondary;
+$pagination-disabled-bg: $dark;
+$pagination-disabled-border-color: none;

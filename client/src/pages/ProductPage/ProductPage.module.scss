@@ -1,0 +1,12 @@
+.dashes {
+  margin-left: 20px;
+  border-bottom: 1px dashed #383838;
+  flex-grow: 1;
+  height: 14px;
+}
+
+.characteristicText {
+  font-family: var(--bs-font-sans-serif);
+  overflow: hidden;
+  white-space: pre-wrap;
+}

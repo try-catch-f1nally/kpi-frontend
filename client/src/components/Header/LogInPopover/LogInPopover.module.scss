@@ -1,0 +1,37 @@
+.arrow,
+.arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+}
+
+.arrow::before {
+  content: '';
+  transform: rotate(45deg);
+  background: #1d1d1d;
+  border: 1px solid #4b4b4b;
+  border-right: none;
+  border-bottom: none;
+}
+
+.popup {
+  border: 1px solid #383838;
+}
+
+.popupEnter {
+  opacity: 0;
+}
+
+.popupEnterActive {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.popupExit {
+  opacity: 1;
+}
+
+.popupExitActive {
+  opacity: 0;
+  transition: opacity 300ms;
+}
